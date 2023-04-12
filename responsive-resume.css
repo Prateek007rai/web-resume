@@ -93,26 +93,16 @@
 }
 
 /* git add .     git commit -m "projects section name"       git push -u origin main   */
-/* ----------------------------------- Projects Section ------------------------------------- */
+/* ----------------------------------- Education Section ------------------------------------- */
 @media screen and (max-width: 600px){
-    .timeline-divider{
-        left: -5%;
-        height: 85.8%;
+    #education{
+        background-color: #FEE140;
+        background-image: linear-gradient(90deg, #FEE140 0%, #FA709A 100%);
+
     }
-    .timeline-box:nth-child(2n+1)::after{
-        left: -18.8%;
-    }
-    .timeline-box:nth-child(2n)::after{
-        left: -18.8%;
-    } 
-    .timeline-box{
-        width: 90%;
-        left: 8% !important;
+    .educations .card-deck{
+        width: 80vw;
     }   
-    .timeline{
-        margin-bottom: 60px;
-    }
-        
 }
 
 
