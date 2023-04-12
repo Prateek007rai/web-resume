@@ -92,17 +92,22 @@
         
 }
 
-/* git add .     git commit -m "projects section name"       git push -u origin main   */
 /* ----------------------------------- Education Section ------------------------------------- */
 @media screen and (max-width: 600px){
     #education{
-        background-color: #FEE140;
-        background-image: linear-gradient(90deg, #FEE140 0%, #FA709A 100%);
+        background-color: #ffffff;
+        background-image: linear-gradient(90deg, #fffefb 0%, #fdeef3 100%);
 
     }
     .educations .card-deck{
         width: 80vw;
     }   
+}
+
+/* git add .     git commit -m "details section name"       git push -u origin main   */
+/* ----------------------------------- Details Section ------------------------------------- */
+@media screen and (max-width: 600px){
+    
 }
 
 
