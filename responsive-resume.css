@@ -29,6 +29,7 @@
         padding:2px 8px;
     }
 }
+/* git add .     git commit -m "Committed"       git push -u origin main   */
 
 /* ----------------------------------- About Section ------------------------------------- */
 @media screen and (max-width: 600px){
@@ -37,6 +38,19 @@
         width: 12rem;
         margin: auto;
         margin-bottom: -50px;
+    }
+    h3{
+        font-size: 16px;
+        margin-bottom: 2rem;
+        text-align: center;
+        margin-top: -40px;
+    }
+    #about p{
+        margin: auto;
+        width: 80%;
+        font-size: 12px;
+        color: #554d4d;
+        font-family: serif;
     }
 }
 
