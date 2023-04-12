@@ -18,6 +18,7 @@ body{
 
 #body-header{
 	height: 80vh;
+	width: 100vw;
 	opacity: 0.9;
 	background-image: url("./images/b.jpg") ;
 	background-position: center;
@@ -29,13 +30,13 @@ body{
 }
 .horizental-list li{
 	display: inline-block;
-	margin:  30px;
+	margin:  1.5rem;
 }
 
 /*color is a property of anchor tags*/
 .horizental-list li a{
 	color: white;
-	font-size: 25px;
+	font-size: 23px;
 	text-decoration: none;
 	transition: color 0.5s;
 }
@@ -286,12 +287,15 @@ h3 small{
 	/* border: 2px solid black; */
 	margin: 10px;
 }
+.timeline-box .card{
+	box-shadow: 0 0 2px 1px rgb(215, 230, 247);
+}
 .card{
 	border-width: 0px;
 	margin-top: 70px;
 }
 .card-title{
-	color: #fe5b36;
+	color: #fe5b36;	
 }
 .card-link{
 	font-weight: 500;
@@ -334,7 +338,7 @@ h3 small{
 
 @media screen and (max-width: 600px){
    .timeline-divider{
-   	left: 8%;
+   	left: -7%;
    }
     .timeline-box{
         width: 70%;
@@ -342,14 +346,14 @@ h3 small{
         left: 12% !important;
     }
     .timeline-box:nth-child(2n+1)::after{
-          left: -11%;
+          left: -11.5%;
 
     }
-   /*.timeline-box:nth-child(2n){
-	left: 12%;
-    }          no neeed of it bcz !important function makes left for all*/
-}
+   .timeline-box:nth-child(2n){
+	left: -15%;
+    }          
 
+}
 
 .timeline-traveller{
 	position: sticky;
@@ -363,6 +367,7 @@ h3 small{
 	position: relative;
     height: auto;
 }
+
 .card-deck{
 	width: 75vw;
 	margin-bottom: 3rem;
@@ -454,9 +459,13 @@ h3 small{
 	border-radius: 5px;
 }
 .contact-details div h4{
-	margin-bottom: 30px;
+	margin-bottom: 40px;
 }
 
+.address  p{
+	margin-bottom: 40px;
+	margin-top: -30px;
+}
 
 
 /* ------------------------------------ Extraaaa ---------------------------------- */

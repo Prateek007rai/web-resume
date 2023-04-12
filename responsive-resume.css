@@ -1,0 +1,20 @@
+/* ----------------------------------- Header Section ------------------------------------- */
+@media screen and (max-width: 600px){
+    .horizental-list li a{
+        color: white;
+        font-size: 18px;
+        text-decoration: none;
+        transition: color 0.5s;
+    }
+    #my-name{
+        margin-top: 22vh;
+        font-size: 4rem;
+        color: white;
+        font-weight: 600;
+        margin-bottom: 0.4rem;
+    }
+}
+
+
+
+
