@@ -5,7 +5,7 @@
     }
     .horizental-list li a{
         color: white;
-        font-size: 10px;
+        font-size: 12px;
         font-weight: 500;
         text-decoration: none;
         transition: color 0.5s;
@@ -18,7 +18,7 @@
     }
     #my-name{
         margin-top: 16vh;
-        font-size: 4rem;
+        font-size: 3rem;
         color: white;
         font-weight: 600;
         margin-bottom: 0.4rem;
@@ -29,7 +29,6 @@
         padding:2px 8px;
     }
 }
-/* git add .     git commit -m "Committed"       git push -u origin main   */
 
 /* ----------------------------------- About Section ------------------------------------- */
 @media screen and (max-width: 600px){
@@ -53,6 +52,14 @@
         font-family: serif;
     }
 }
+
+/* git add .     git commit -m "Committed"       git push -u origin main   */
+
+/* ----------------------------------- Skills Section ------------------------------------- */
+@media screen and (max-width: 600px){
+    
+}
+
 
 
 
