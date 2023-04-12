@@ -403,7 +403,7 @@ h3 small{
 	margin-bottom: 30px;
 }
 .carousel-caption{
-	/* text-align: center; */
+	text-align: left;
 	position: absolute;
 	top: 15%;
 }
@@ -419,7 +419,6 @@ h3 small{
 	color: white;
 }
 #contact h1 span{
-	
 	color: white;
 }
 .contact-details{
