@@ -66,8 +66,19 @@
 
 /* ----------------------------------- Skills Section ------------------------------------- */
 @media screen and (max-width: 600px){
-    
+    .skill-progress{
+        width: 13rem;
+    }
 }
+
+/* git add .     git commit -m "skills section name"       git push -u origin main   */
+/* ----------------------------------- Skills Section ------------------------------------- */
+@media screen and (max-width: 600px){
+    .skill-progress{
+        width: 13rem;
+    }
+}
+
 
 
 
