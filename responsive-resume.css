@@ -44,9 +44,9 @@
     h3{
         font-size: 16px;
         width: 85vw;
-        margin-bottom: 2rem;
+        margin-bottom: 3rem;
         text-align: center;
-        margin-top: -40px;
+        margin-top: -20px;
     }
     #about p{
         margin: auto;
@@ -62,7 +62,7 @@
     }
 }
 
-/* git add .     git commit -m "about name"       git push -u origin main   */
+/* git add .     git commit -m "skills section name"       git push -u origin main   */
 
 /* ----------------------------------- Skills Section ------------------------------------- */
 @media screen and (max-width: 600px){
