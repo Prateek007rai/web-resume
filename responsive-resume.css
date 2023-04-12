@@ -48,18 +48,18 @@
     #about p{
         margin: auto;
         width: 90vw;
-        font-size: 12px;
+        font-size: 14px;
         color: #554d4d;
         font-family: serif;
         margin-top: -20px;
         margin-bottom: -15px;
     }
     #about{
-        margin-bottom: -30px;
+        margin-bottom: -15px;
     }
 }
 
-/* git add .     git commit -m "Committed"       git push -u origin main   */
+/* git add .     git commit -m "skills"       git push -u origin main   */
 
 /* ----------------------------------- Skills Section ------------------------------------- */
 @media screen and (max-width: 600px){
