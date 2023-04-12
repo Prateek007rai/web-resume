@@ -1,0 +1,508 @@
+body{
+	margin: 0px;
+	padding-left: 0px;
+	overflow-x: hidden;
+}
+
+.text-center{
+	text-align: center;
+}
+
+.mb75px{
+	margin-bottom: 75px;
+}
+
+
+
+/*header starts*/
+
+#body-header{
+	height: 80vh;
+	opacity: 0.8;
+	background-image: url("../images/b.jpg") ;
+	background-position: center;
+	background-size: cover;     
+}
+
+.horizental-list{
+	list-style: none;
+}
+.horizental-list li{
+	display: inline-block;
+	margin:  30px;
+}
+
+/*color is a property of anchor tags*/
+.horizental-list li a{
+	color: white;
+	font-size: 25px;
+	text-decoration: none;
+	transition: color 0.5s;
+}
+.nav-menu{
+	margin: 0;
+}
+.nav-menu li a:hover{
+	color: lightgrey;
+	text-decoration: underline;
+}
+
+/*horizental-navigation-list-ends*/
+
+#my-name{
+    margin-top: 22vh;
+    font-size: 8rem;
+    letter-spacing: 0.1rem;
+    color: white;
+    font-weight: 600;
+    margin-bottom: 0.4rem;
+}
+
+.social-icons li{
+	margin-top: -130px;
+    border-radius: 50%;
+}
+.git-img img{
+	border-radius: 50%;
+	margin-top: 3px;
+}
+.social-icons li:hover {
+    box-shadow: 0px 0px 6px 4px rgba(255, 255, 255, 0.4);
+}
+.social-icons li a img{
+	margin-bottom: 6px;
+    width: 2.5rem;
+    padding:2px 8px;
+}
+/*header ends*/
+
+/*main starts*/
+
+
+section{
+	width: 100vw;
+	height: auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+section:nth-child(2n+1){
+	background-color: white;
+}
+section:nth-child(2n){
+	background-color: #f1f1f1;
+}
+
+.section-heading{
+	font-weight: 400;
+	padding: 20px 10px 10px;
+	width: auto;
+	margin: 10px auto;
+}
+
+.section-heading span{
+	font-size: 40px;
+	color: #2857a4;
+	display: inline-block;
+	padding-top: 10px;
+	margin-right: 0.5rem;
+}
+.section-heading span img{
+	width: 65px;
+	color: #2857a4;
+	display: inline-block;
+	padding-top: 10px;
+	margin-right: 0rem;
+}
+
+/*section:target{
+	background-color: cyan;
+}
+*/
+
+/*----------------------------------------------------about section starts--------------------------------------------------*/
+#about {   
+   position: relative;
+}
+#my-image{
+	height: 17rem;
+	width: 17rem;
+	margin: auto;
+	margin-bottom: -50px;
+}
+#my-image img{
+	height: 100%;
+	width: 100%;
+	border-radius: 50%;  
+    margin-top: -50%;
+    border: 4px solid white;
+    box-shadow: 0px 0px 9px 3px white;
+}
+h3{
+	margin-bottom: 5rem;
+	margin-top: -40px;
+}
+h3 small{
+	color:#434446;
+}
+#about p{
+	margin: auto;
+	width: 80%;
+	font-size: 1.6rem;
+	color: #554d4d;
+	font-family: serif;
+}
+/*-----------------------------------------------------skills section starts--------------------------------------------------*/
+
+#skills{
+    margin-top: 70px;
+}
+
+.skill-display{
+	width: 75%;
+    /*padding: 10px;*/
+    margin-bottom: 40px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.skill-progress{
+	width: 11rem;
+    height: 2.2rem;
+    background-color: rgb(255, 255, 255);
+    border-radius: 1rem;
+    box-shadow: 1px 1px 2px 1px #b8b6b6;
+    margin: 35px;
+    overflow: hidden;
+}
+
+.skill-progress>div{
+     border-radius: 1rem 0rem 0rem 1rem;
+     box-shadow: 1px 1px 5px 1px #949485;
+}
+
+.skill-name span{
+	color: white;
+	font-size: 1.1rem;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	/* font-weight: bold; */
+	/* letter-spacing: 0.1rem; */
+	margin-left: 1rem;
+	margin-top: 0.25rem;
+	position: absolute;
+}
+
+/* setting background-color */
+
+.mb-blue {
+    background-color: #0b48ab;
+}
+.mb-org{
+	background-color: #f38360;
+}
+.mb-pink{
+	background-color: rgb(245, 102, 125);
+}
+.mb-brown{
+	background-color: rgb(151, 70, 82);
+}
+.mb-red{
+	background-color: rgb(248, 29, 29);
+}
+.mb-yellow{
+	background-color: rgb(182, 203, 25);
+}
+.mb-gold{
+	background-color: rgb(190, 181, 91);
+}
+.mb-grey{
+	background-color: rgb(79, 81, 69);
+}
+.mb-og{
+	background-color: rgb(255, 159, 4);
+}
+
+.mb-orange {
+    background-color: #ec4d1c;
+}
+
+.mb-teal {
+    background-color: #0b8176;
+}
+
+.mb-light-purple {
+    background-color: #d760bd;
+}
+
+.mb-cyan{
+	background-color: rgb(5, 173, 173);
+}
+.mb-lime{
+	background-color: #05b55d;
+}
+.mb-ogn{
+	background-color: #FF5733;
+}
+.mb-gn{
+	background-color: #196F3D;
+}
+
+
+
+/*Percentage Classes */
+
+.eighty-five-percent {
+    height: inherit;
+    width: 85%;
+}
+
+.eighty-percent {
+    height: inherit;
+    width: 80%;
+}
+
+.fifty-percent {
+    height: inherit;
+    width: 50%;
+}
+.ninty-percent{
+	width: 90%;
+	height: inherit;
+}
+
+
+/*----------------------------------------------------Projects Section starts------------------------------------------*/
+
+.timeline{
+	position: relative;
+	width: 75%;	
+}
+.timeline-box{
+	position: relative;
+	width: 40%;
+	left: 5%;
+	min-height: 250px;
+	/* border: 2px solid black; */
+	margin: 10px;
+}
+.card{
+	border-width: 0px;
+	margin-top: 70px;
+}
+.card-title{
+	color: #fe5b36;
+}
+.card-link{
+	font-weight: 500;
+}
+.timeline-box:nth-child(2n+1)::after{
+	content: '';
+	border-radius: 50%;
+	width: 0.5rem;
+	height: 0.5rem;
+	position: absolute;
+	top: 0%;
+	right: -11.6%;
+	background-color: blue;
+	z-index: 1;
+}
+.timeline-box:nth-child(2n)::after{
+	content: '';
+	border-radius: 50%;
+	width: 0.5rem;
+	height: 0.5rem;
+	position: absolute;
+	top: 0%;
+	left: -10.2%;
+	background-color: blue;
+	z-index: 1;
+}
+
+.timeline-box:nth-child(2n){
+	left: 53%;
+}
+/* aeroplane-line size changes by here */
+.timeline-divider{
+	position: absolute;
+	height: 85%;
+	width: 0;
+	border: 2px dashed lightblue;
+	top: 2%;
+	left: 50%;
+}
+
+@media screen and (max-width: 600px){
+   .timeline-divider{
+   	left: 8%;
+   }
+    .timeline-box{
+        width: 70%;
+        height: 45%;  
+        left: 12% !important;
+    }
+    .timeline-box:nth-child(2n+1)::after{
+          left: -11%;
+
+    }
+   /*.timeline-box:nth-child(2n){
+	left: 12%;
+    }          no neeed of it bcz !important function makes left for all*/
+}
+
+
+.timeline-traveller{
+	position: sticky;
+	top: 20%;
+	transform: rotate(90deg);
+	color: rgb(13, 127, 220);
+}
+
+/* ----------------------------------------------------- Education Section Starts---------------------------------------- */
+.education{
+	position: relative;
+    height: auto;
+}
+.card-deck{
+	width: 75vw;
+	margin-bottom: 3rem;
+	font-weight: 500;
+}
+
+/*------------------------------------------------------Certificates section starts-----------------------------------------*/
+	
+#certificates .card:hover p{
+	font-size: large;
+} 
+.card-cf-details p{
+	/* color: transparent; */
+	/* position: absolute; */
+	text-align: center;
+	transition: all 0.5s ease-in-out;
+	/* top: 5%;
+	left: auto; */
+	margin-top: 20px;
+}
+
+
+/* -------------------------------------- Details interest section--------------------------------------------- */
+.detl-img{
+	/* width: 20px; */
+	height: 70px;
+}
+#details{
+	background-color: white;
+	margin-bottom: 90px;
+	/* background-image: linear-gradient( 89.9deg,  rgba(208,246,255,1) 0.1%, rgba(255,237,237,1) 47.9%, rgba(255,255,231,1) 100.2% ); */
+}
+.first-details{
+	height: 50vh;
+	text-align: center;
+	background-image: radial-gradient( circle farthest-corner at 50.3% 44.5%,  rgba(116,147,179,1) 0%, rgba(62,83,104,1) 100.2% );
+}
+.sec-details{
+	height: 50vh;
+	text-align: center;
+	background-image: radial-gradient( circle 603px at 32.8% 51%,  rgba(253,185,51,1) 0%, rgba(253,211,117,1) 90.3% );
+}
+.third-details{
+	height: 50vh;
+	text-align: center;
+	background-image: radial-gradient( circle farthest-corner at 17.1% 22.8%,  rgba(226,24,24,1) 0%, rgba(160,6,6,1) 90% );
+}
+.details{
+	width: 45vw;
+}
+.details-slide{
+	margin-bottom: 30px;
+}
+.carousel-caption{
+	/* text-align: center; */
+	position: absolute;
+	top: 15%;
+}
+.language{
+	top: 25%;
+}
+
+/* ------------------------------------------------- contact section ------------------------------------- */
+#contact{
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-image: linear-gradient( 113.3deg,  rgba(217,9,27,1) 6.9%, rgba(22,68,150,1) 75% );
+	color: white;
+}
+#contact h1 span{
+	
+	color: white;
+}
+.contact-details{
+    width: 60vw;
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 80px;
+}
+.contact-details p{
+	margin-left: 1.9rem;
+	font-size: large;
+}
+.contact-details img{
+	width: 25px;
+	height: 25px;
+	margin-right: 5px;
+	margin-top: -8px;
+	border-radius: 5px;
+}
+.contact-details div h4{
+	margin-bottom: 30px;
+}
+
+
+
+/* ------------------------------------ Extraaaa ---------------------------------- */
+
+/* #portfolio-container {
+    box-sizing: border-box;
+	width: 70vw;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 50px;
+    margin-bottom: 30px;
+    justify-content: space-between;
+}
+
+.portfolio-image-container {
+    max-width: 300px;
+    overflow: hidden;
+    margin: 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.portfolio-image-container img {
+    width: 100%;
+    height: 100%;
+}
+
+.portfolio-details {
+    transition: all 0.5s ease-in-out;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    color: transparent;
+    text-align: center;
+    padding: 10px;
+
+}
+
+.portfolio-image-container:hover {
+    box-shadow: 0 0 20px #74ADC8;
+}
+
+.portfolio-image-container:hover .portfolio-details {
+    background-color:  #ffffff98; 
+    color: rgb(83, 77, 77);
+} */
+ 
