@@ -10,12 +10,15 @@
         text-decoration: none;
         transition: color 0.5s;
     }
+    .horizental-list{
+        padding-left: 0px;
+    }
     .horizental-list li{
         margin: 5px;
     }
     #my-name{
-        margin-top: 15vh;
-        font-size: 3rem;
+        margin-top: 16vh;
+        font-size: 4rem;
         color: white;
         font-weight: 600;
         margin-bottom: 0.4rem;
