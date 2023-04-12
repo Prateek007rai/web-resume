@@ -1,27 +1,40 @@
 /* ----------------------------------- Header Section ------------------------------------- */
 @media screen and (max-width: 600px){
     #body-header{
-        height: 65vh;
+        height: 50vh;
     }
     .horizental-list li a{
         color: white;
-        font-size: 16px;
+        font-size: 10px;
         font-weight: 500;
         text-decoration: none;
         transition: color 0.5s;
     }
+    .horizental-list li{
+        margin: 5px;
+    }
     #my-name{
-        margin-top: 7vh;
-        font-size: 4rem;
+        margin-top: 15vh;
+        font-size: 3rem;
         color: white;
         font-weight: 600;
         margin-bottom: 0.4rem;
+    }
+    .social-icons li a img{
+        margin-bottom: 6px;
+        width: 1.8rem;
+        padding:2px 8px;
     }
 }
 
 /* ----------------------------------- About Section ------------------------------------- */
 @media screen and (max-width: 600px){
-    
+    #my-image{
+        height: 12rem;
+        width: 12rem;
+        margin: auto;
+        margin-bottom: -50px;
+    }
 }
 
 
