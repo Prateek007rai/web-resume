@@ -17,16 +17,19 @@
         margin: 5px;
     }
     #my-name{
-        margin-top: 16vh;
+        margin-top: 18vh;
         font-size: 3rem;
         color: white;
         font-weight: 600;
-        margin-bottom: 0.4rem;
+        margin-bottom: 0.1rem;
     }
     .social-icons li a img{
         margin-bottom: 6px;
         width: 1.8rem;
         padding:2px 8px;
+    }
+    .social-icons{
+        margin-bottom: 0px;
     }
 }
 
@@ -59,7 +62,7 @@
     }
 }
 
-/* git add .     git commit -m "skills"       git push -u origin main   */
+/* git add .     git commit -m "about name"       git push -u origin main   */
 
 /* ----------------------------------- Skills Section ------------------------------------- */
 @media screen and (max-width: 600px){
