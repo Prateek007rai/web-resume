@@ -62,8 +62,6 @@
     }
 }
 
-/* git add .     git commit -m "skills section name"       git push -u origin main   */
-
 /* ----------------------------------- Skills Section ------------------------------------- */
 @media screen and (max-width: 600px){
     .skill-progress{
@@ -71,13 +69,52 @@
     }
 }
 
-/* git add .     git commit -m "skills section name"       git push -u origin main   */
-/* ----------------------------------- Skills Section ------------------------------------- */
+
+/* ----------------------------------- Projects Section ------------------------------------- */
 @media screen and (max-width: 600px){
-    .skill-progress{
-        width: 13rem;
+    .timeline-divider{
+        left: -5%;
+        height: 85.8%;
     }
+    .timeline-box:nth-child(2n+1)::after{
+        left: -18.8%;
+    }
+    .timeline-box:nth-child(2n)::after{
+        left: -18.8%;
+    } 
+    .timeline-box{
+        width: 90%;
+        left: 8% !important;
+    }   
+    .timeline{
+        margin-bottom: 60px;
+    }
+        
 }
+
+/* git add .     git commit -m "projects section name"       git push -u origin main   */
+/* ----------------------------------- Projects Section ------------------------------------- */
+@media screen and (max-width: 600px){
+    .timeline-divider{
+        left: -5%;
+        height: 85.8%;
+    }
+    .timeline-box:nth-child(2n+1)::after{
+        left: -18.8%;
+    }
+    .timeline-box:nth-child(2n)::after{
+        left: -18.8%;
+    } 
+    .timeline-box{
+        width: 90%;
+        left: 8% !important;
+    }   
+    .timeline{
+        margin-bottom: 60px;
+    }
+        
+}
+
 
 
 
