@@ -1,19 +1,29 @@
 /* ----------------------------------- Header Section ------------------------------------- */
 @media screen and (max-width: 600px){
+    #body-header{
+        height: 65vh;
+    }
     .horizental-list li a{
         color: white;
-        font-size: 18px;
+        font-size: 16px;
+        font-weight: 500;
         text-decoration: none;
         transition: color 0.5s;
     }
     #my-name{
-        margin-top: 22vh;
+        margin-top: 7vh;
         font-size: 4rem;
         color: white;
         font-weight: 600;
         margin-bottom: 0.4rem;
     }
 }
+
+/* ----------------------------------- About Section ------------------------------------- */
+@media screen and (max-width: 600px){
+    
+}
+
 
 
 
