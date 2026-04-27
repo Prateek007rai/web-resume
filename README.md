@@ -1,1 +1,1 @@
-Hosted on : https://prateek007rai.github.io/web-resume/
+Hosted on: https://prateek007rai.github.io/web-resume/
